@@ -183,6 +183,8 @@ margin-left: 15px;
 
 .grid__item {
   background-color: lightgray;
+  border-style: solid;
+  border-color: black;
 }
 
 @media all and (max-width: 500px) {
