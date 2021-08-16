@@ -197,12 +197,14 @@ button:focus,
 
 @media all and (max-width: 500px) {
   .grid {
+    -ms-grid-colums: 1fr;
     grid-template-columns: 1fr;
   }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
+    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -213,9 +215,7 @@ button:focus,
   }
 
   .grid__item:last-child {
-    -ms-grid-column: auto / auto;
     grid-column: auto / auto;
-    -ms-grid-row: auto/ auto;
     grid-row: auto / auto;
   }
 }
