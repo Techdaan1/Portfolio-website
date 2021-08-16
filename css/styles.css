@@ -165,46 +165,27 @@ button:focus,
   text-decoration: none;
 }
 
-/* start grid fallback */
 .grid {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
   padding: 20px;
-}
-
-/* end grid fallback */
-
-@supports (display:grid) {
-  .grid {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-    margin: 0;
-  }
 }
 
 .grid__item {
   background-color: var(--lightgray);
   border-style: solid;
   border-color: black;
-  width: auto;
-  min-height: auto;
-  padding: 20px;
-  margin: 0;
 }
 
 @media all and (max-width: 500px) {
   .grid {
-    -ms-grid-colums: 1fr;
     grid-template-columns: 1fr;
   }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
-    -ms-grid-columns: 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 }
