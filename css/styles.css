@@ -166,7 +166,9 @@ button:focus,
 }
 
 .grid {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: 20px;
@@ -196,7 +198,9 @@ button:focus,
   }
 
   .grid__item:last-child {
+    -ms-grid-column: auto / auto;
     grid-column: auto / auto;
+    -ms-grid-row: auto / auto;
     grid-row: auto / auto;
   }
 }
