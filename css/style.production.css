@@ -155,16 +155,25 @@ button:focus,
 }
 
 .grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  display: inline-block;
   padding: 20px;
+}
+
+@supports (display:grid) {
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
 }
 
 .grid__item {
   background-color: lightgray;
+  width: auto;
+  min-height: auto;
   border-style: solid;
   border-color: black;
 }
@@ -187,9 +196,7 @@ button:focus,
   }
 
   .grid__item:last-child {
-    -ms-grid-column: auto / auto;
     grid-column: auto / auto;
-    -ms-grid-row: auto / auto;
     grid-row: auto / auto;
   }
 }
