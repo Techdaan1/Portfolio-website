@@ -67,11 +67,18 @@ a:active {
   margin: 0 auto;
 }
 
-.about,
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .contact {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
+  border-color: #0d1d1f;
+  padding: 50px;
 }
 
 .profile__portrait {
