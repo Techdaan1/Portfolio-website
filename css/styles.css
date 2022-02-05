@@ -126,8 +126,6 @@ button:focus,
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
   text-align: center;
 }
 
@@ -178,7 +176,7 @@ button:focus,
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 40px;
   padding: 20px;
   display: inline-block;
 }
