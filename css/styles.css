@@ -25,7 +25,7 @@ a {
 }
 
 body {
-  font-family: 'source-sans-pro', sans-serif;
+  font-family: "source-sans-pro", sans-serif;
   font-weight: var(--main-font-weight);
   font-size: var(--main-font-size);
   line-height: var(--main-line-hight);
@@ -122,10 +122,16 @@ button:focus,
 }
 
 .page-footer {
+  position: fixed;
   clear: both;
   display: flex;
   flex-direction: column;
   text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
 
 * {
@@ -179,7 +185,7 @@ button:focus,
   padding: 20px;
 }
 
-@supports (display:grid) {
+@supports (display: grid) {
   .grid {
     display: -ms-grid;
     display: grid;
