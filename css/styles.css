@@ -173,13 +173,9 @@ button:focus,
   display: grid;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 30px;
   padding: 20px;
-}
-
-.grid {
   display: inline-block;
-  padding: 30px;
 }
 
 @supports (display: grid) {
