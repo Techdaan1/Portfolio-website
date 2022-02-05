@@ -180,6 +180,7 @@ button:focus,
 .grid {
   display: inline-block;
   padding: 20px;
+  border-radius: 25px;
 }
 
 @supports (display: grid) {
