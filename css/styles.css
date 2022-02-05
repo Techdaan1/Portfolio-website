@@ -197,9 +197,11 @@ button:focus,
   background-color: var(--lightgray);
   width: auto;
   min-height: auto;
-
+  border-style: solid;
   border-color: black;
   border-radius: 25px;
+  overflow: hidden;
+  perspective: 1px;
 }
 
 @media all and (max-width: 500px) {
