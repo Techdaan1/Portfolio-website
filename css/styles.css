@@ -132,12 +132,10 @@ button:focus,
 }
 
 .page-footer {
+  left: 0;
+  bottom: 0;
   width: 100%;
   text-align: center;
-  clear: both;
-  position: relative;
-  height: 200px;
-  margin-top: -200px;
 }
 
 * {
