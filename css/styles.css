@@ -81,7 +81,6 @@ a:active {
   text-align: center;
   border: 4px solid;
   padding: 50px;
-  margin: 20px;
 }
 
 .profile__portrait {
@@ -147,6 +146,7 @@ button:focus,
   width: 100%;
   padding: 20px;
   background-color: red;
+  margin-bottom: 20px;
 }
 
 .page-header__item {
@@ -175,6 +175,12 @@ button:focus,
 
 .navigation-list {
   list-style-type: none;
+}
+
+.navigation-list__item {
+  font-weight: bold;
+  font-size: larger;
+  color: white;
 }
 
 .navigation-list__item--active {
