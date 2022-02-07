@@ -142,7 +142,7 @@ button:focus,
 }
 
 .page-header {
-  display: flex;
+  display: fixed;
   width: 100%;
   padding: 20px;
   background-color: red;
