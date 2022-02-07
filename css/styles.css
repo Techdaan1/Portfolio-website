@@ -31,6 +31,8 @@ body {
   line-height: var(--main-line-hight);
   background-color: var(--bg-color);
   text-align: center;
+  height: 100%;
+  min-height: 100%;
 }
 
 h1 {
@@ -79,6 +81,7 @@ a:active {
   text-align: center;
   border: 4px solid;
   padding: 50px;
+  margin: 20px;
 }
 
 .profile__portrait {
@@ -129,11 +132,12 @@ button:focus,
 }
 
 .page-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   text-align: center;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
 }
 
 * {
