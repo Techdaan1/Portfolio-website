@@ -208,6 +208,7 @@ button:focus,
   background-color: var(--lightgray);
   width: auto;
   min-height: auto;
+  border-radius: 25px;
 }
 
 @media all and (max-width: 500px) {
