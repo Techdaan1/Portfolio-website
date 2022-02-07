@@ -205,10 +205,11 @@ button:focus,
 }
 
 .grid__item {
-  background-color: var(--lightgray);
+  background-color: yellowgreen;
   width: auto;
   min-height: auto;
   border-radius: 25px;
+  padding: 20px;
 }
 
 @media all and (max-width: 500px) {
