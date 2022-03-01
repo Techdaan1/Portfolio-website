@@ -102,6 +102,7 @@ button,
   border-radius: 10px;
   border-bottom: 6px solid rgba(0, 0, 0, 0.3);
   transition: 0.4s opacity;
+  position: relative;
 }
 
 button:hover,
