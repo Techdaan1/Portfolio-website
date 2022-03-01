@@ -91,6 +91,20 @@ a:active {
   border-radius: 50%;
 }
 
+.work-button {
+  border: none;
+  font-family: inherit;
+  background-color: var(--bg-color-button);
+  color: var(--white);
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 10px;
+  border-bottom: 6px solid rgba(0, 0, 0, 0.3);
+  transition: 0.4s opacity;
+  position: relative;
+  margin-top: 100%;
+}
+
 button,
 .button {
   border: none;
@@ -102,10 +116,6 @@ button,
   border-radius: 10px;
   border-bottom: 6px solid rgba(0, 0, 0, 0.3);
   transition: 0.4s opacity;
-  position: relative;
-  left: 20%;
-  right: 20%;
-  bottom: 5%;
 }
 
 button:hover,
