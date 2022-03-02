@@ -76,6 +76,7 @@ a:active {
   border: 4px solid;
   padding: 50px;
   padding-bottom: 2.5rem;
+  margin-top: 90px;
 }
 
 .profile__portrait {
@@ -161,6 +162,8 @@ button:focus,
 
 .page-header__item {
   flex: 0 1 80px;
+  outline: 5px solid white;
+  outline-offset: -10px;
 }
 
 .page-header__item:last-child {
