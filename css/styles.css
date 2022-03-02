@@ -20,9 +20,9 @@
   --main-line-hight: 1.4;
 }
 
-a {
+/*a {
   color: var(--first-color);
-}
+}*/
 
 body {
   font-family: "source-sans-pro", sans-serif;
@@ -161,7 +161,7 @@ button:focus,
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: red;
+  background-color: white;
   margin-bottom: 20px;
 }
 
