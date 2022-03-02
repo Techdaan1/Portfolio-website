@@ -156,7 +156,7 @@ button:focus,
   background-color: black;
   color: black;
   margin-bottom: 20px;
-  position: sticky;
+  position: fixed;
 }
 
 .page-header__item {
@@ -216,6 +216,7 @@ button:focus,
 #page-container {
   position: relative;
   min-height: 100vh;
+  padding-top: 120px;
 }
 
 @supports (display: grid) {
