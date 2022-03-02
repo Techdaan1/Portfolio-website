@@ -20,10 +20,6 @@
   --main-line-hight: 1.4;
 }
 
-/*a {
-  color: var(--first-color);
-}*/
-
 body {
   font-family: "source-sans-pro", sans-serif;
   font-weight: var(--main-font-weight);
@@ -52,7 +48,7 @@ h3 {
 }
 
 a:visited {
-  color: var(--visited-color);
+  color: yellow;
 }
 
 a:hover,
@@ -161,7 +157,8 @@ button:focus,
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: white;
+  background-color: black;
+  color: black;
   margin-bottom: 20px;
   position: sticky;
 }
