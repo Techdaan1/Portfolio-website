@@ -25,7 +25,6 @@ body {
   font-weight: var(--main-font-weight);
   font-size: var(--main-font-size);
   line-height: var(--main-line-hight);
-  background-color: var(--bg-color);
   text-align: center;
   height: 100%;
   min-height: 100%;
@@ -47,13 +46,10 @@ h3 {
   font-weight: var(--header-font-weight);
 }
 
-a:visited {
-  color: yellow;
-}
-
 a:hover,
 a:focus {
   text-decoration: none;
+  color: yellow;
 }
 
 a:active {
