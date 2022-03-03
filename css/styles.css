@@ -84,7 +84,7 @@ a:active {
   width: 100%;
   height: auto;
   border-radius: 50%;
-  outline: 1px solid black;
+  outline: 1px solid black round;
   outline-offset: 10px;
 }
 
