@@ -81,10 +81,10 @@ a:active {
 .profile__portrait {
   float: left;
   margin-right: 40px;
-  width: 100%;
+  width: 35%;
   height: auto;
   border-radius: 50%;
-  outline: 1px solid black round;
+  outline: 1px solid black;
   outline-offset: 10px;
 }
 
@@ -100,8 +100,12 @@ a:active {
   transition: 0.4s opacity;
 }
 
-.button-left {
+.form-button-left {
   float: left;
+}
+
+.form-button-right {
+  float: right;
 }
 
 button,
