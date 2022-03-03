@@ -81,7 +81,7 @@ a:active {
 .profile__portrait {
   float: left;
   margin-right: 40px;
-  width: 250px;
+  width: 100%;
   height: auto;
   border-radius: 50%;
   outline: 1px solid black;
