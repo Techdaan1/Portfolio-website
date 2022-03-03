@@ -100,6 +100,10 @@ a:active {
   transition: 0.4s opacity;
 }
 
+.button-left {
+  float: left;
+}
+
 button,
 .button {
   border: none;
