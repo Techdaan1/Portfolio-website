@@ -84,6 +84,8 @@ a:active {
   width: 250px;
   height: auto;
   border-radius: 50%;
+  outline: 1px solid black;
+  outline-offset: 10px;
 }
 
 .work-button {
