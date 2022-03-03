@@ -102,7 +102,7 @@ button,
 .button {
   border: none;
   font-family: inherit;
-  background-color: linear-gradient(#fdfa0b 0%, #fa1dfd 50%, #454ffc 100%);
+  background-color: var(--bg-color-button);
   color: var(--white);
   text-decoration: none;
   padding: 6px;
@@ -228,7 +228,6 @@ button:focus,
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    padding: 20px;
   }
 }
 
