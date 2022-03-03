@@ -83,7 +83,10 @@ a:active {
   margin-right: 40px;
   width: 35%;
   height: auto;
-  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   outline: 1px solid black;
   outline-offset: 10px;
 }
@@ -138,7 +141,7 @@ button:focus,
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 170px;
+  width: 20%;
   background-color: var(--red);
   color: var(--white);
   font-family: arial;
