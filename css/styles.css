@@ -126,7 +126,6 @@ a:active {
 
 .form-button-left {
   float: left;
-  padding-left: 40px;
   position: absolute;
   bottom: 0;
   left: 20%;
@@ -136,7 +135,6 @@ a:active {
 
 .form-button-right {
   float: right;
-  padding-right: 40px;
   position: absolute;
   bottom: 0;
   right: 20%;
