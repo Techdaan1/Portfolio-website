@@ -106,10 +106,12 @@ a:active {
 
 .form-button-left {
   float: left;
+  padding-left: 20px;
 }
 
 .form-button-right {
   float: right;
+  padding-right: 20px;
 }
 
 button,
@@ -280,58 +282,6 @@ button:focus,
   }
 }
 
-@keyframes color-change {
-  from {
-    fill: var(--seventh-color);
-  }
-
-  to {
-    fill: var(--eight-color);
-  }
-}
-
-.sun {
-  animation: 3s color-change infinite alternate linear;
-}
-
-@keyframes sun-rotate {
-  from {
-    fill: var(--seventh-color);
-  }
-
-  to {
-    fill: var(--eight-color);
-  }
-}
-
-.sun {
-  animation: 3s sun-rotate infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation: 40s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 60s cloud-move-reverse infinite alternate linear;
+.social-media {
+  background-color: black;
 }
