@@ -107,21 +107,23 @@ a:active {
 }
 
 .form-button-left1 {
-  padding-right: 20px;
+  float: left;
+  padding-left: 20px;
 }
 
 .form-button-right1 {
+  float: left;
   padding-left: 20px;
 }
 
 .form-button-left {
   float: left;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .form-button-right {
   float: right;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 button,
@@ -281,4 +283,5 @@ button:focus,
 
 .social-media {
   background-color: black;
+  padding-top: 5px;
 }
