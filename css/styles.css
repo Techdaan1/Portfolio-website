@@ -112,8 +112,8 @@ a:active {
 }
 
 .form-button-right1 {
-  float: left;
-  padding-left: 20px;
+  float: right;
+  padding-right: 20px;
 }
 
 .form-button {
