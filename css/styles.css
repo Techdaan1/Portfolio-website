@@ -137,7 +137,7 @@ a:active {
   float: right;
   position: absolute;
   bottom: 0;
-  right: 25%;
+  right: -2%;
   transform: translateX(-50%);
   margin-bottom: 5px;
 }
