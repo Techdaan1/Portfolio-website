@@ -217,10 +217,18 @@ button:focus,
 
 .link1 {
   margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  padding: 4px 4px;
+  text-decoration: none;
 }
 
 .link2 {
   margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  padding: 4px 4px;
+  text-decoration: none;
 }
 
 .navigation-list li {
