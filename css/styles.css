@@ -213,6 +213,13 @@ button:focus,
 .work-links {
   display: flex;
   justify-content: space-evenly;
+}
+
+.link1 {
+  margin-bottom: 5px;
+}
+
+.link2 {
   margin-bottom: 5px;
 }
 
