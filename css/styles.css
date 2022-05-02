@@ -124,14 +124,14 @@ a:active {
   margin-bottom: 5px;
 }
 
-.form-button-left {
+/*.form-button-left {
   float: left;
   position: absolute;
   bottom: 0;
   left: 25%;
   transform: translateX(-50%);
   margin-bottom: 5px;
-}
+} 
 
 .form-button-right {
   float: right;
@@ -140,7 +140,7 @@ a:active {
   right: -2%;
   transform: translateX(-50%);
   margin-bottom: 5px;
-}
+}*/
 
 button,
 .button {
