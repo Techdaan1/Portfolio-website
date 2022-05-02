@@ -210,6 +210,12 @@ button:focus,
   margin-right: 20px;
 }
 
+.work-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
