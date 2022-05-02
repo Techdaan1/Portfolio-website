@@ -188,6 +188,7 @@ button:focus,
   position: fixed;
   outline: 5px solid white;
   outline-offset: -10px;
+  z-index: 1;
 }
 
 .page-header__item {
