@@ -168,6 +168,10 @@ button:focus,
   color: var(--color-second-button);
 }
 
+.center-buttons {
+  justify-content: center;
+}
+
 .page-footer {
   text-align: center;
   bottom: 0;
