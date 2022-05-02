@@ -265,7 +265,6 @@ div.grid {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
-  padding: 20px;
   display: inline-block;
   padding-bottom: 2.5rem;
 }
