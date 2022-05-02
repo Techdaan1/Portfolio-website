@@ -188,7 +188,7 @@ button:focus,
   position: fixed;
   outline: 5px solid white;
   outline-offset: -10px;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .page-header__item {
@@ -275,7 +275,6 @@ div.grid {
   border: 4px solid;
   position: relative;
   padding-bottom: 7%;
-  z-index: -500;
 }
 
 @media all and (max-width: 500px) {
