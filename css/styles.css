@@ -112,18 +112,6 @@ a:active {
   margin-top: -30px;
 }
 
-.work-button {
-  border: none;
-  font-family: inherit;
-  background-color: var(--bg-color-button);
-  color: var(--white);
-  text-decoration: none;
-  padding: 6px;
-  border-radius: 10px;
-  border-bottom: 6px solid rgba(0, 0, 0, 0.3);
-  transition: 0.4s opacity;
-}
-
 .form-button-left1 {
   float: left;
   padding-left: 20px;
@@ -132,32 +120,6 @@ a:active {
 .form-button-right1 {
   float: right;
   padding-right: 20px;
-}
-
-.form-button {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 5px;
-}
-
-.form-button-left {
-  float: left;
-  position: absolute;
-  bottom: 0;
-  left: 25%;
-  transform: translateX(-50%);
-  margin-bottom: 5px;
-}
-
-.form-button-right {
-  float: right;
-  position: absolute;
-  bottom: 0;
-  right: -2%;
-  transform: translateX(-50%);
-  margin-bottom: 5px;
 }
 
 button,
@@ -218,11 +180,6 @@ button:focus,
 .page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
-}
-
-.about-list {
-  list-style-type: none;
-  padding: 0;
 }
 
 .work-info {
