@@ -294,7 +294,7 @@ div.grid {
 #page-container {
   position: relative;
   min-height: 80vh;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 @supports (display: grid) {
